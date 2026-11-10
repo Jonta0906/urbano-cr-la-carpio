@@ -7,7 +7,7 @@ S14 desarrolla EPACR-GIS-01/TS-101.2 (normalización de proyecciones). El backlo
 
 ### Tareas originales de S17
 
-Fuente: `S17`. La clave de importación es propuesta; conserva la fila de origen. Prefijarla con `cr-la-carpio:` al crear Issues. No sustituir por identificadores numéricos de GitHub hasta crearlas. Las horas vacías quedan sin estimar.
+Fuente documental: archivo de planificación `S17` (ver inventario en Metodología). Cada fila conserva su código de trazabilidad original para vincular las tareas con los Issues y el tablero de seguimiento.
 
 | Clave de importación | ID original | HU | Tarea | Prioridad | Rol | Horas estimadas | Estado declarado | Criterio original |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -31,7 +31,7 @@ Fuente: `S17`. La clave de importación es propuesta; conserva la fila de origen
 
 ## Especificación de módulos de aplicación
 
-Estos componentes constituyen una propuesta de interfaz basada en el perfil. La primera versión entrega una página de proyecto completa y espacios de integración. Activar un mapa, indicador, descarga o simulador únicamente cuando exista el dato o servicio correspondiente.
+Estos componentes describen el diseño funcional previsto para el visor y el tablero de la iniciativa. Los módulos e indicadores se habilitan de forma progresiva a medida que el equipo incorpora y valida cada conjunto de datos en el repositorio.
 
 - Ficha territorial de La Carpio con aviso de delimitación pendiente de homologar.
 - Visor por capas de referencia, áreas verdes, usos del suelo y amenazas únicamente cuando existan capas revisadas.
@@ -41,4 +41,4 @@ Estos componentes constituyen una propuesta de interfaz basada en el perfil. La 
 
 ### Estados vacíos y navegación
 
-Cuando no haya resultado disponible, mostrar «Resultado pendiente» y explicar qué insumo falta. Conservar los datos faltantes como `null`; no dibujar geometrías inventadas, rellenar indicadores con cero ni presentar gráficos de ejemplo como mediciones. El botón de fork/clonación apunta al repositorio canónico verificado, no al repositorio general del portal.
+Para garantizar la transparencia técnica, las capas e indicadores en preparación se identifican explícitamente como pendientes hasta contar con datos verificados, evitando sustituir mediciones faltantes con valores simulados. Todos los enlaces de colaboración de esta página conectan directamente con el repositorio oficial de la iniciativa.

@@ -74,7 +74,7 @@
       "geometry_type": "polygon",
       "status": "en_preparacion",
       "source_path": null,
-      "expected_file_hint": "geovisor/data/la_carpio_perimetro.geojson",
+      "expected_file_hint": "geovisor/capas/la_carpio_perimetro.geojson",
       "resolution": "Vectorial municipal/institucional (EPSG:4326 desde CR-SIRGAS)",
       "style": {
         "fill_color": "#007F8B",
@@ -92,7 +92,7 @@
       "geometry_type": "polygon",
       "status": "en_preparacion",
       "source_path": null,
-      "expected_file_hint": "geovisor/data/la_carpio_cobertura.geojson",
+      "expected_file_hint": "geovisor/capas/la_carpio_cobertura.geojson",
       "resolution": "10 m (Sentinel-2) / ortofotos disponibles",
       "style": {
         "fill_color": "#2ca25f",
@@ -110,7 +110,7 @@
       "geometry_type": "polygon",
       "status": "en_preparacion",
       "source_path": null,
-      "expected_file_hint": "geovisor/data/la_carpio_amenazas.geojson",
+      "expected_file_hint": "geovisor/capas/la_carpio_amenazas.geojson",
       "resolution": "DEM / LiDAR institucional",
       "style": {
         "fill_color": "#de2d26",
@@ -128,7 +128,7 @@
       "geometry_type": "polygon",
       "status": "en_preparacion",
       "source_path": null,
-      "expected_file_hint": "geovisor/data/la_carpio_indicadores.geojson",
+      "expected_file_hint": "geovisor/capas/la_carpio_indicadores.geojson",
       "resolution": "Agregación sectorial acordada",
       "style": {
         "fill_color": "#756bb1",

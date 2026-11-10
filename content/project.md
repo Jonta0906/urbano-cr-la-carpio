@@ -12,9 +12,9 @@ Ofrecer mapas, indicadores y una metodología compartida que pueda utilizarse en
 
 ## Instituciones participantes
 
-- Municipalidad de San José
-- Instituto Nacional de Vivienda y Urbanismo (INVU)
-- Ministerio de Vivienda y Asentamientos Humanos (MIVAH)
+- Municipalidad de San José (Jacqueline Vargas Bogantes)
+- Instituto Nacional de Vivienda y Urbanismo (Rodolfo Bolaños y Emiler Segura López)
+- Ministerio de Vivienda y Asentamientos Humanos (Victoria Delgado Fernández y Jonnathan Obando Artiaga)
 
 ## Territorio
 

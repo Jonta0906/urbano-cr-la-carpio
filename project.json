@@ -209,10 +209,54 @@
           "S13"
         ],
         "note": "Contenido técnico declarado por la fuente; no acredita ejecución ni validación."
+      },
+      {
+        "pointer": "/team",
+        "status": "declarado",
+        "source_ids": [
+          "S13"
+        ],
+        "note": "Equipo técnico interinstitucional asignado a la iniciativa."
       }
     ]
   },
-  "team": [],
+  "team": [
+    {
+      "name": "Jonnathan Obando Artiaga",
+      "role": "Equipo técnico",
+      "institution": "Ministerio de Vivienda y Asentamientos Humanos (MIVAH)",
+      "github_username": "Jonta0906",
+      "profile_url": "https://github.com/Jonta0906"
+    },
+    {
+      "name": "Victoria Delgado Fernández",
+      "role": "Equipo técnico",
+      "institution": "Ministerio de Vivienda y Asentamientos Humanos (MIVAH)",
+      "github_username": null,
+      "profile_url": null
+    },
+    {
+      "name": "Emiler Segura López",
+      "role": "Equipo técnico",
+      "institution": "Instituto Nacional de Vivienda y Urbanismo (INVU)",
+      "github_username": null,
+      "profile_url": null
+    },
+    {
+      "name": "Rodolfo Bolaños Bermúdez",
+      "role": "Equipo técnico",
+      "institution": "Instituto Nacional de Vivienda y Urbanismo (INVU)",
+      "github_username": null,
+      "profile_url": null
+    },
+    {
+      "name": "Jaqueline Vargas Bogantes",
+      "role": "Equipo técnico",
+      "institution": "Municipalidad de San José",
+      "github_username": null,
+      "profile_url": null
+    }
+  ],
   "data_sources": [
     {
       "title": "Sentinel-2 / óptico multiespectral",

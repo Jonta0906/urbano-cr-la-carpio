@@ -4,6 +4,14 @@
 
 La iniciativa propone reunir información territorial y ambiental de La Carpio para apoyar la formulación e implementación de su Plan Maestro de Intervención Urbanística Integral y el trabajo de las instituciones involucradas.
 
+## Equipo de trabajo
+
+- **Jonnathan Obando Artiaga** — Ministerio de Vivienda y Asentamientos Humanos (MIVAH)
+- **Victoria Delgado Fernández** — Ministerio de Vivienda y Asentamientos Humanos (MIVAH)
+- **Emiler Segura López** — Instituto Nacional de Vivienda y Urbanismo (INVU)
+- **Rodolfo Bolaños Bermúdez** — Instituto Nacional de Vivienda y Urbanismo (INVU)
+- **Jaqueline Vargas Bogantes** — Municipalidad de San José
+
 ## Estructura del repositorio
 
 | Ruta | Función |

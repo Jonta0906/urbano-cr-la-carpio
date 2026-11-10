@@ -14,6 +14,16 @@ Ofrecer mapas, indicadores y una metodología compartida que pueda utilizarse en
 - Instituto Nacional de Vivienda y Urbanismo (INVU)
 - Ministerio de Vivienda y Asentamientos Humanos (MIVAH)
 
+## Equipo técnico participante
+
+Las personas integrantes del equipo de trabajo y su filiación institucional son:
+
+- **Jonnathan Obando Artiaga** — Ministerio de Vivienda y Asentamientos Humanos (MIVAH)
+- **Victoria Delgado Fernández** — Ministerio de Vivienda y Asentamientos Humanos (MIVAH)
+- **Emiler Segura López** — Instituto Nacional de Vivienda y Urbanismo (INVU)
+- **Rodolfo Bolaños Bermúdez** — Instituto Nacional de Vivienda y Urbanismo (INVU)
+- **Jaqueline Vargas Bogantes** — Municipalidad de San José
+
 ## Territorio
 
 Gran Área Metropolitana, San José, Uruca, Asentamiento Informal La Carpio.

@@ -49,6 +49,24 @@
   ],
   "layers": [
     {
+      "id": "cr-carpio-referencia-osm",
+      "title": "Contorno referencial de La Carpio, La Uruca (OSM ODbL)",
+      "group": "Línea base interinstitucional",
+      "format": "geojson",
+      "geometry_type": "polygon",
+      "status": "en_revision",
+      "source_path": "geovisor/capas/la_carpio_referencia_osm.geojson",
+      "expected_file_hint": "geovisor/capas/la_carpio_referencia_osm.geojson",
+      "resolution": "Vectorial referencial (~67,6 ha, EPSG:4326)",
+      "style": {
+        "fill_color": "#007F8B",
+        "fill_opacity": 0.24,
+        "stroke_color": "#14283F",
+        "stroke_width": 2.6
+      },
+      "caveat": "Fuente externa abierta: OpenStreetMap contributors (ODbL). Contorno orientativo; el equipo interinstitucional (MSJ/INVU/MIVAH) debe acordar el polígono operativo definitivo (48,2 ha vs. 63 ha)."
+    },
+    {
       "id": "cr-carpio-perimetro",
       "title": "Delimitación operativa homologada de La Carpio",
       "group": "Línea base interinstitucional",

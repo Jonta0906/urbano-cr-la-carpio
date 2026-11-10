@@ -1,55 +1,82 @@
 {
-  "version": "1.0.0",
-  "id": "geolibre-cr-la-carpio",
-  "name": "Costa Rica · La Carpio: intervención urbanística integral",
   "description": "La iniciativa propone reunir información territorial y ambiental de La Carpio para apoyar la formulación e implementación de su Plan Maestro de Intervención Urbanística Integral y el trabajo de las instituciones involucradas.",
-  "metadata": {
-    "project_id": "cr-la-carpio",
-    "community": "Comunidad Urbana Copernicus Centroamérica",
-    "referential_frame_only": true,
-    "note": "Centroide declarado en S13: 9.96309, -84.15020 (La Carpio, Uruca, San José). Atención: resolver discrepancia documental de superficie entre 48,2 ha (polígono de formulario) y ≈ 63 ha (texto narrativo) antes de calcular indicadores."
-  },
+  "id": "geolibre-cr-la-carpio",
+  "layers": [
+    {
+      "id": "cr-carpio-referencia-osm",
+      "name": "Contorno referencial de La Carpio, La Uruca (OSM ODbL)",
+      "source": "cr-carpio-referencia-osm",
+      "status": "en_revision",
+      "style": {
+        "fill_color": "#007F8B",
+        "fill_opacity": 0.24,
+        "stroke_color": "#14283F",
+        "stroke_width": 2.6
+      },
+      "visible": true
+    }
+  ],
   "map": {
-    "engine": "maplibre",
+    "basemap": "carto-positron",
+    "bearing": 0,
     "center": [
       -84.1502,
       9.96309
     ],
-    "zoom": 14.8,
-    "bearing": 0,
+    "engine": "maplibre",
     "pitch": 0,
-    "basemap": "carto-positron"
+    "zoom": 14.8
   },
-  "sources": {},
-  "layers": [],
+  "metadata": {
+    "community": "Comunidad Urbana Copernicus Centroamérica",
+    "note": "Centroide declarado en S13: 9.96309, -84.15020 (La Carpio, Uruca, San José). Atención: resolver discrepancia documental de superficie entre 48,2 ha (polígono de formulario) y ≈ 63 ha (texto narrativo) antes de calcular indicadores.",
+    "project_id": "cr-la-carpio",
+    "referential_frame_only": false,
+    "schema_version": "1.0.0"
+  },
+  "name": "Costa Rica · La Carpio: intervención urbanística integral",
   "planned_layers": [
     {
-      "id": "cr-carpio-perimetro",
-      "title": "Delimitación operativa homologada de La Carpio",
-      "status": "en_preparacion",
+      "caveat": "Fuente externa abierta: OpenStreetMap contributors (ODbL). Contorno orientativo; el equipo interinstitucional (MSJ/INVU/MIVAH) debe acordar el polígono operativo definitivo (48,2 ha vs. 63 ha).",
+      "expected_file_hint": "geovisor/capas/la_carpio_referencia_osm.geojson",
+      "id": "cr-carpio-referencia-osm",
+      "status": "en_revision",
+      "title": "Contorno referencial de La Carpio, La Uruca (OSM ODbL)"
+    },
+    {
+      "caveat": "Debe documentar el acuerdo entre MSJ, INVU y MIVAH sobre las referencias de 48,2 ha y 63 ha.",
       "expected_file_hint": "geovisor/data/la_carpio_perimetro.geojson",
-      "caveat": "Debe documentar el acuerdo entre MSJ, INVU y MIVAH sobre las referencias de 48,2 ha y 63 ha."
+      "id": "cr-carpio-perimetro",
+      "status": "en_preparacion",
+      "title": "Delimitación operativa homologada de La Carpio"
     },
     {
-      "id": "cr-carpio-cobertura-ndvi",
-      "title": "Áreas verdes, cobertura urbana e índice NDVI",
-      "status": "en_preparacion",
+      "caveat": "Sujeto a disponibilidad de escenas con nubosidad < 10 % u ortofotos municipales.",
       "expected_file_hint": "geovisor/data/la_carpio_cobertura.geojson",
-      "caveat": "Sujeto a disponibilidad de escenas con nubosidad < 10 % u ortofotos municipales."
+      "id": "cr-carpio-cobertura-ndvi",
+      "status": "en_preparacion",
+      "title": "Áreas verdes, cobertura urbana e índice NDVI"
     },
     {
-      "id": "cr-carpio-pendientes-amenazas",
-      "title": "Pendientes, hidrografía y exposición a amenazas",
-      "status": "en_preparacion",
+      "caveat": "Requiere validar topología e insumos oficiales antes de priorizar intervenciones.",
       "expected_file_hint": "geovisor/data/la_carpio_amenazas.geojson",
-      "caveat": "Requiere validar topología e insumos oficiales antes de priorizar intervenciones."
+      "id": "cr-carpio-pendientes-amenazas",
+      "status": "en_preparacion",
+      "title": "Pendientes, hidrografía y exposición a amenazas"
     },
     {
-      "id": "cr-carpio-vulnerabilidad-sectores",
-      "title": "Índice multicriterio preliminar para el Plan Maestro",
-      "status": "en_preparacion",
+      "caveat": "Exige publicar definición de variables, pesos y fuente censal utilizada.",
       "expected_file_hint": "geovisor/data/la_carpio_indicadores.geojson",
-      "caveat": "Exige publicar definición de variables, pesos y fuente censal utilizada."
+      "id": "cr-carpio-vulnerabilidad-sectores",
+      "status": "en_preparacion",
+      "title": "Índice multicriterio preliminar para el Plan Maestro"
     }
-  ]
+  ],
+  "sources": {
+    "cr-carpio-referencia-osm": {
+      "type": "geojson",
+      "url": "/geovisor/capas/la_carpio_referencia_osm.geojson"
+    }
+  },
+  "version": "1.0.0"
 }

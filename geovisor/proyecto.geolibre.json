@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "id": "geolibre-cr-la-carpio",
+  "name": "Costa Rica · La Carpio: intervención urbanística integral",
+  "description": "La iniciativa propone reunir información territorial y ambiental de La Carpio para apoyar la formulación e implementación de su Plan Maestro de Intervención Urbanística Integral y el trabajo de las instituciones involucradas.",
+  "metadata": {
+    "project_id": "cr-la-carpio",
+    "community": "Comunidad Urbana Copernicus Centroamérica",
+    "referential_frame_only": true,
+    "note": "Centroide declarado en S13: 9.96309, -84.15020 (La Carpio, Uruca, San José). Atención: resolver discrepancia documental de superficie entre 48,2 ha (polígono de formulario) y ≈ 63 ha (texto narrativo) antes de calcular indicadores."
+  },
+  "map": {
+    "engine": "maplibre",
+    "center": [
+      -84.1502,
+      9.96309
+    ],
+    "zoom": 14.8,
+    "bearing": 0,
+    "pitch": 0,
+    "basemap": "carto-positron"
+  },
+  "sources": {},
+  "layers": [],
+  "planned_layers": [
+    {
+      "id": "cr-carpio-perimetro",
+      "title": "Delimitación operativa homologada de La Carpio",
+      "status": "en_preparacion",
+      "expected_file_hint": "geovisor/data/la_carpio_perimetro.geojson",
+      "caveat": "Debe documentar el acuerdo entre MSJ, INVU y MIVAH sobre las referencias de 48,2 ha y 63 ha."
+    },
+    {
+      "id": "cr-carpio-cobertura-ndvi",
+      "title": "Áreas verdes, cobertura urbana e índice NDVI",
+      "status": "en_preparacion",
+      "expected_file_hint": "geovisor/data/la_carpio_cobertura.geojson",
+      "caveat": "Sujeto a disponibilidad de escenas con nubosidad < 10 % u ortofotos municipales."
+    },
+    {
+      "id": "cr-carpio-pendientes-amenazas",
+      "title": "Pendientes, hidrografía y exposición a amenazas",
+      "status": "en_preparacion",
+      "expected_file_hint": "geovisor/data/la_carpio_amenazas.geojson",
+      "caveat": "Requiere validar topología e insumos oficiales antes de priorizar intervenciones."
+    },
+    {
+      "id": "cr-carpio-vulnerabilidad-sectores",
+      "title": "Índice multicriterio preliminar para el Plan Maestro",
+      "status": "en_preparacion",
+      "expected_file_hint": "geovisor/data/la_carpio_indicadores.geojson",
+      "caveat": "Exige publicar definición de variables, pesos y fuente censal utilizada."
+    }
+  ]
+}

@@ -88,11 +88,11 @@
     }
   },
   "links": {
-    "repository": null,
-    "website": null,
+    "repository": "https://github.com/copernicuscentroamerica/urbano-cr-la-carpio",
+    "website": "https://copernicuscentroamerica.github.io/urbano-cr-la-carpio/",
     "demo": null,
-    "documentation": null,
-    "issue_tracker": null
+    "documentation": "https://github.com/copernicuscentroamerica/urbano-cr-la-carpio#readme",
+    "issue_tracker": "https://github.com/copernicuscentroamerica/urbano-cr-la-carpio/issues"
   },
   "governance": {
     "technical_owner": null,

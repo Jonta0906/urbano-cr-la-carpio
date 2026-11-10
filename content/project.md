@@ -1,5 +1,7 @@
 # La Carpio: información territorial para la intervención urbana
 
+**Victoria Delgado Fernández**
+
 La iniciativa propone reunir información territorial y ambiental de La Carpio para apoyar la formulación e implementación de su Plan Maestro de Intervención Urbanística Integral y el trabajo de las instituciones involucradas.
 
 ## Propósito

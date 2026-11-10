@@ -212,7 +212,15 @@
       }
     ]
   },
-  "team": [],
+  "team": [
+    {
+      "name": "Victoria Delgado Fernández",
+      "role": "Colaboradora",
+      "institution": null,
+      "github_username": "dvictoria2020",
+      "profile_url": "https://github.com/dvictoria2020"
+    }
+  ],
   "data_sources": [
     {
       "title": "Sentinel-2 / óptico multiespectral",

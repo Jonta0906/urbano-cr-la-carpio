@@ -554,6 +554,7 @@ def build_home_page(
           {badge_html(manifest['pmv']['scope_status'], 'Alcance PMV')}
         </div>
         <h1>{esc(manifest['title'])}</h1>
+        <p class="hero-team" style="margin: -0.25rem 0 0.85rem; color: var(--c-accent-yellow, #ffd100); font-size: 1.05rem; font-weight: 500;"><strong>Integrantes del grupo:</strong> Rodolfo Bolaños, Emiler Segura, Victoria Delgado, Jaqueline Vargas, Jonnathan Artiaga</p>
         <p class="hero-lead">{esc(manifest['summary'])}</p>
         <div class="hero-actions">
           <a class="btn btn-primary" href="{html.escape(ctx.site_url('aplicacion/'), quote=True)}">Abrir Geovisor (GeoLibre)</a>
@@ -735,6 +736,7 @@ def build_proyecto_page(
           <span class="badge badge-country">{esc(manifest['id'])}</span>
         </div>
         <h1>{esc(manifest['title'])}</h1>
+        <p class="hero-team" style="margin: -0.25rem 0 0.85rem; color: var(--c-accent-yellow, #ffd100); font-size: 1.05rem; font-weight: 500;"><strong>Integrantes del grupo:</strong> Rodolfo Bolaños, Emiler Segura, Victoria Delgado, Jaqueline Vargas, Jonnathan Artiaga</p>
         <p class="hero-lead">Alcance territorial en {esc(manifest['territory']['label'])}, criterios del PMV, instituciones participantes y trazabilidad documental desde <code>project.json</code>.</p>
       </div>
     </section>

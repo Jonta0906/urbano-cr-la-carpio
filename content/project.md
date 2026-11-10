@@ -1,5 +1,7 @@
 # La Carpio: información territorial para la intervención urbana
 
+**Integrantes del grupo:** Rodolfo Bolaños, Emiler Segura, Victoria Delgado, Jaqueline Vargas, Jonnathan Artiaga
+
 La iniciativa propone reunir información territorial y ambiental de La Carpio para apoyar la formulación e implementación de su Plan Maestro de Intervención Urbanística Integral y el trabajo de las instituciones involucradas.
 
 ## Propósito
